@@ -36,6 +36,7 @@ var aContent;
 
 if (size == menuUrl.length) {
   for (var i = 0; i < size; i++) {
+    console.log(i);
     liContainer = document.createElement('li');
     liContainer.className = 'nav-item';
 
