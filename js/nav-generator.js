@@ -12,17 +12,17 @@ var menuUrl = [];
 // Index
 if (indexMenu == 0) {
   menuUrl.push('index.html');
-  menuUrl.push('#');
+  menuUrl.push('pages/leveling.html');
   menuUrl.push('#');
   menuUrl.push('pages/map-interactive.html');
-  menuUrl.push('#');
+  menuUrl.push('pages/end-game.html');
 } else {
   // Autres pages
   menuUrl.push('../index.html');
-  menuUrl.push('#');
+  menuUrl.push('leveling.html');
   menuUrl.push('#');
   menuUrl.push('map-interactive.html');
-  menuUrl.push('#');
+  menuUrl.push('end-game.html');
 }
 
 var size = menuName.length;
@@ -36,7 +36,6 @@ var aContent;
 
 if (size == menuUrl.length) {
   for (var i = 0; i < size; i++) {
-    console.log(i);
     liContainer = document.createElement('li');
     liContainer.className = 'nav-item';
 
